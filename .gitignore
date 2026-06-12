@@ -1,0 +1,36 @@
+# Pastas de compilação e banco de dados do Intel Quartus Prime
+.qsys_edit/
+db/
+incremental_db/
+output_files/
+simulation/
+greybox_tmp/
+hc_output/
+
+# Arquivos de log, relatórios e mapeamento internos
+*.rpt
+*.summary
+*.done
+*.pin
+*.jdi
+*.qws
+*.sof
+*.pof
+*.sld
+*.cdf
+*.smsg
+*.bak
+*.v.bak
+*.sv.bak
+
+# Configurações locais do Quartus 
+*.qdf
+*.qpf
+*.qsf
+
+# Arquivos gerados por ferramentas de simulação do ModelSim/EDA
+work/
+transcript
+*.wlf
+*.do
+msim_transcript
